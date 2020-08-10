@@ -40,7 +40,7 @@ void install() {
   //deliver(ciphertext);
 }
 
-void groupSessioin() {
+void groupSession() {
   var senderKeyName = SenderKeyName("", SignalProtocolAddress("sender", 1));
   var senderKeyStore = InMemorySenderKeyStore();
   var groupSession = GroupCipher(senderKeyStore, senderKeyName);
